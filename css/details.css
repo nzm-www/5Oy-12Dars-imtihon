@@ -1,0 +1,66 @@
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact .phone a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.contact .icons a {
+  margin-left: 10px;
+}
+
+#container:hover {
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+  color: rgb(255, 255, 255, 1);
+  transform: scale(1.1) translateY(-3px);
+}
+
+.modal {
+  box-shadow: rgba(0, 0, 0, 0.618) 1px 0px, rgba(0, 0, 212, 0.1) 0px 8px 24px,
+    rgba(0, 0, 0, 0.884) 0px 16px 48px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  align-items: center;
+  background: #454f5b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-section h2 {
+  font-family: SF Pro Text, sans-serif;
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.korzinka-button {
+  padding: 10px;
+  width: 100px;
+  background-color: #194472;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#product-image {
+  width: 200px;
+  height: 250px;
+  padding: 20px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
